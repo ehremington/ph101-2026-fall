@@ -1,0 +1,427 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15617,        419]
+NotebookOptionsPosition[     13893,        381]
+NotebookOutlinePosition[     14228,        396]
+CellTagsIndexPosition[     14185,        393]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"Sin", "[", 
+      RowBox[{"2", "*", "Pi", "*", "x"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "t"}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "10"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "}"}]}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", ".1", ",", "1", ",", ".1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8130833125691977`*^9, 3.813083424258054*^9}, 
+   3.813084039426697*^9},
+ CellLabel->"In[15]:=",ExpressionUUID->"7da1741e-14d1-4e9a-9a12-1da81c02c326"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`t$$ = 1., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t$$], 0.1, 1, 0.1}}, Typeset`size$$ = {
+    360., {106., 113.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`t$36604$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0.1}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`t$$, $CellContext`t$36604$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Plot[
+        Sin[(2 Pi) $CellContext`x], {$CellContext`x, 0, $CellContext`t$$}, 
+        PlotRange -> {{0, 10}, {-1, 1}}], 
+      "Specifications" :> {{$CellContext`t$$, 0.1, 1, 0.1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{407., {151., 158.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.813083353000601*^9, 3.813083392653125*^9}, 
+   3.813083425989764*^9, {3.8130840326215973`*^9, 3.813084039804834*^9}},
+ CellLabel->"Out[15]=",ExpressionUUID->"2a980c60-7445-413a-b294-688cb1b3d6a5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Manipulate", "[", 
+     RowBox[{
+      RowBox[{"Plot", "[", 
+       RowBox[{
+        RowBox[{"Sin", "[", 
+         RowBox[{"2", "*", "Pi", "*", "x"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "0", ",", "t"}], "}"}], ",", 
+        RowBox[{"PlotRange", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "10"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "}"}]}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", ".1", ",", "1", ",", ".1"}], "}"}]}], "]"}], 
+    "Permissions"}], "\[Rule]", " ", "\"\<Public\>\""}], "]"}]], "Input",
+ CellLabel->"In[4]:=",ExpressionUUID->"da6bbdec-77ea-42ff-af14-9a944a2396f1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/d04235b0-ff47-4da9-855c-dad8e7c5023d\"\
+","https://www.wolframcloud.com/obj/d04235b0-ff47-4da9-855c-dad8e7c5023d"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/d04235b0-ff47-4da9-855c-dad8e7c5023d"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.813767251488346*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"f2017827-c54f-4ded-a462-8b11aecfc44d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EmbedCode", "[", 
+  RowBox[{"CloudDeploy", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Manipulate", "[", 
+      RowBox[{
+       RowBox[{"Plot", "[", 
+        RowBox[{
+         RowBox[{"Sin", "[", 
+          RowBox[{"2", "*", "Pi", "*", "x"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"x", ",", "0", ",", "t"}], "}"}], ",", 
+         RowBox[{"PlotRange", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "10"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "}"}]}]}], "]"}], ",", 
+       
+       RowBox[{"{", 
+        RowBox[{"t", ",", ".1", ",", "1", ",", ".1"}], "}"}]}], "]"}], 
+     "Permissions"}], "\[Rule]", " ", "\"\<Public\>\""}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.813083437571508*^9, 3.813083594646737*^9}, 
+   3.81308405467165*^9, {3.813767092755128*^9, 3.813767097402033*^9}, {
+   3.813767173715517*^9, 3.813767195546473*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"00b448a8-2c99-496a-a276-4aa4efe946c4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  FrameBox[
+   PanelBox[
+    TagBox[GridBox[{
+       {
+        StyleBox["\<\"Embeddable Code\"\>", "ControlStyle",
+         StripOnInput->False,
+         FontSize->Larger,
+         FontWeight->Bold,
+         FontColor->GrayLevel[0.3]]},
+       {
+        StyleBox["\<\"Use the code below to call the Wolfram Cloud function \
+from HTML:\"\>",
+         StripOnInput->False,
+         FontColor->RGBColor[0.23, 0.23, 0.23]]},
+       {
+        FrameBox[
+         TagBox[GridBox[{
+            {
+             TagBox[GridBox[{
+                {
+                 TagBox[GridBox[{
+                    {
+                    StyleBox["\<\"Code\"\>", "ControlStyle",
+                    StripOnInput->False,
+                    FontWeight->Bold,
+                    FontColor->RGBColor[0.33, 0.33, 0.33]]},
+                    {
+                    StyleBox["\<\"\"\>",
+                    StripOnInput->False,
+                    FontColor->RGBColor[0.33, 0.33, 0.33]]}
+                   },
+                   DefaultBaseStyle->"Column",
+                   GridBoxAlignment->{"Columns" -> {{Left}}},
+                   
+                   GridBoxItemSize->{
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+                  "Column"], 
+                 ItemBox[
+                  ButtonBox["\<\"Copy to Clipboard\"\>",
+                   
+                   Appearance:>FEPrivate`FrontEndResource[
+                    "FEExpressions", "GrayButtonNinePatchAppearance"],
+                   BaseStyle->"DialogStyle",
+                   
+                   ButtonFunction:>CopyToClipboard[
+                    "<iframe \
+src=\"https://www.wolframcloud.com/obj/447482c8-c1bd-4976-a2d1-dd48d20a011c?_\
+embed=iframe\" width=\"600\" height=\"800\"></iframe>"],
+                   Evaluator->Automatic,
+                   FrameMargins->{{10, 10}, {0, 0}},
+                   ImageSize->Automatic,
+                   Method->"Queued"],
+                  Alignment->Right,
+                  StripOnInput->False]}
+               },
+               AutoDelete->False,
+               GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Top}}},
+               GridBoxItemSize->{"Columns" -> {{Fit}}, "Rows" -> {{Fit}}}],
+              "Grid"]},
+            {
+             FrameBox[
+              PaneBox[Cell["\<\
+<iframe src=\"https://www.wolframcloud.com/obj/447482c8-c1bd-4976-a2d1-\
+dd48d20a011c?_embed=iframe\" width=\"600\" height=\"800\"></iframe>\
+\>",
+                Editable->False,
+                Deployed->False,ExpressionUUID->
+                "3b5d342c-2dea-49fe-b6d9-68fe46dad42e"],
+               AppearanceElements->{},
+               ImageSize->{
+                 Scaled[1], 60},
+               Scrollbars->Automatic],
+              Background->GrayLevel[1],
+              BaseStyle->"StandardForm",
+              FrameStyle->RGBColor[0.69, 0.69, 0.69],
+              StripOnInput->False]}
+           },
+           DefaultBaseStyle->"Column",
+           GridBoxAlignment->{"Columns" -> {{Left}}},
+           GridBoxItemSize->{"Columns" -> {{Fit}}, "Rows" -> {{Fit}}},
+           GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {0.2, {0.5}}}],
+          "Column"],
+         Background->RGBColor[0.96, 0.96, 0.96],
+         FrameMargins->{{14, 14}, {14, 10}},
+         FrameStyle->RGBColor[0.69, 0.69, 0.69],
+         StripOnInput->False]}
+      },
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+      GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {0.3, 0.4, 0.8, 1.5}}],
+     "Column"],
+    Background->RGBColor[0.87, 0.87, 0.87],
+    BaseStyle->{"Deploy"},
+    ImageSize->630],
+   Background->RGBColor[0.87, 0.87, 0.87],
+   FrameMargins->{{2, 2}, {1, 1}},
+   FrameStyle->RGBColor[0.76, 0.76, 0.76],
+   RoundingRadius->6,
+   StripOnInput->False],
+  EmbeddingObject[
+   Association[
+   "EnvironmentName" -> "HTML", "CodeSection" -> 
+    Association[
+     "Content" -> 
+      "<iframe src=\"https://www.wolframcloud.com/obj/447482c8-c1bd-4976-a2d1-\
+dd48d20a011c?_embed=iframe\" width=\"600\" height=\"800\"></iframe>", "Title" -> 
+      Automatic, "Filename" -> "cloudembed.html"], "CloudObject" -> 
+    CloudObject[
+     "https://www.wolframcloud.com/obj/447482c8-c1bd-4976-a2d1-dd48d20a011c"]]\
+]]], "Output",
+ CellChangeTimes->{
+  3.813083534474382*^9, {3.813083572603129*^9, 3.813083595217889*^9}, 
+   3.813083858752755*^9, 3.813084055418118*^9, 3.81376703372521*^9, 
+   3.813767099722288*^9, 3.813767197961626*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"f9d05fc1-60fc-4af7-81e5-dc7dd19235a4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"Plot", "[", 
+     RowBox[{
+      RowBox[{"t", "*", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"2", "*", "Pi", "*", "x"}], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "0", ",", "10"}], "}"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "10"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "}"}]}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"t", ",", "1", ",", "10", ",", "1"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.81308360957333*^9, 3.813083617170065*^9}, {
+  3.813083949492404*^9, 3.813083952896413*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"26d3686f-3220-41d0-a4e5-3f3be47afdb2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CloudObject","srverr",
+   "\"Cloud server is not able to complete a request.\"",2,12,14,
+   16832557859074359472,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8130836187600183`*^9, 3.8130837240794573`*^9, 
+  3.8130838612379293`*^9, 3.813083954644363*^9},
+ CellLabel->
+  "During evaluation of \
+In[12]:=",ExpressionUUID->"fe405eb3-65d2-4014-ae17-705df1d20aa6"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.8130836187763987`*^9, 3.813083724096867*^9, 
+  3.8130838612550364`*^9, 3.8130839546686773`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"d89f5769-7ed1-4b27-b289-32ff5540941b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"ContourPlot3D", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"x", "^", "2"}], "+", 
+        RowBox[{"y", "^", "2"}], "+", 
+        RowBox[{"a", " ", 
+         RowBox[{"z", "^", "3"}]}]}], "\[Equal]", "1"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", 
+        RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"z", ",", 
+        RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+      RowBox[{"Mesh", "\[Rule]", "None"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", 
+      RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.813083974346122*^9, 3.8130839743470488`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"e91904a3-47e3-45c5-a6d9-518dd76b7cb6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CloudObject","srverr",
+   "\"Cloud server is not able to complete a request.\"",2,13,15,
+   16832557859074359472,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.813083975727868*^9},
+ CellLabel->
+  "During evaluation of \
+In[13]:=",ExpressionUUID->"fbbe4c3b-1018-4254-9a74-a4fac2d685dd"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.813083975741035*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"f9007c00-7f88-4334-bbf6-df14f6b239c7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$CloudCreditsAvailable"], "Input",
+ CellChangeTimes->{{3.8137676246514482`*^9, 3.813767624652944*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"59523424-927a-42bd-96c0-ea238209a13c"],
+
+Cell[BoxData["455000"], "Output",
+ CellChangeTimes->{3.813767626647941*^9, 3.8137676859199038`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"f588a1ed-36e0-46b4-8e33-a4e4ae0dc322"]
+}, Open  ]]
+},
+WindowSize->{808, 810},
+WindowMargins->{{Automatic, 191}, {44, Automatic}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 771, 21, 55, "Input",ExpressionUUID->"7da1741e-14d1-4e9a-9a12-1da81c02c326"],
+Cell[1354, 45, 1843, 36, 328, "Output",ExpressionUUID->"2a980c60-7445-413a-b294-688cb1b3d6a5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3234, 86, 848, 23, 78, "Input",ExpressionUUID->"da6bbdec-77ea-42ff-af14-9a944a2396f1"],
+Cell[4085, 111, 516, 11, 38, "Output",ExpressionUUID->"f2017827-c54f-4ded-a462-8b11aecfc44d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4638, 127, 1103, 29, 101, "Input",ExpressionUUID->"00b448a8-2c99-496a-a276-4aa4efe946c4"],
+Cell[5744, 158, 4666, 117, 203, "Output",ExpressionUUID->"f9d05fc1-60fc-4af7-81e5-dc7dd19235a4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10447, 280, 878, 24, 78, "Input",ExpressionUUID->"26d3686f-3220-41d0-a4e5-3f3be47afdb2"],
+Cell[11328, 306, 417, 10, 23, "Message",ExpressionUUID->"fe405eb3-65d2-4014-ae17-705df1d20aa6"],
+Cell[11748, 318, 230, 3, 35, "Output",ExpressionUUID->"d89f5769-7ed1-4b27-b289-32ff5540941b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12015, 326, 948, 26, 78, "Input",ExpressionUUID->"e91904a3-47e3-45c5-a6d9-518dd76b7cb6"],
+Cell[12966, 354, 342, 9, 23, "Message",ExpressionUUID->"fbbe4c3b-1018-4254-9a74-a4fac2d685dd"],
+Cell[13311, 365, 155, 2, 35, "Output",ExpressionUUID->"f9007c00-7f88-4334-bbf6-df14f6b239c7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13503, 372, 194, 2, 31, "Input",ExpressionUUID->"59523424-927a-42bd-96c0-ea238209a13c"],
+Cell[13700, 376, 177, 2, 92, "Output",ExpressionUUID->"f588a1ed-36e0-46b4-8e33-a4e4ae0dc322"]
+}, Open  ]]
+}
+]
+*)
+
