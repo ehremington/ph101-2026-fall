@@ -2,4 +2,4 @@
 
 
 
-echo 'https://github.com/ehremington/101-2025-fall/raw/main/'$1 | xclip -selection clipboard 
+echo 'https://github.com/ehremington/ph101-2026-fall/raw/main/'$1 | xclip -selection clipboard 
