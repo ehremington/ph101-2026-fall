@@ -13,11 +13,11 @@ figures/
 *.autosave.xopp
 *.fdb_latexmk
 *.fls
-worksheets/2021-hints
-worksheets/2022-hints
+worksheets/2021-fall-hints
+worksheets/2022-fall-hints
 worksheets/figures
-worksheets/2023-hints
-worksheets/2020-hints
-worksheets/2025-hints
-worksheets/2024-hints
+worksheets/2023-fall-hints
+worksheets/2020-fall-hints
+worksheets/2025-fall-hints
+worksheets/2024-fall-hints
 .DS_Store
